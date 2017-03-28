@@ -1,0 +1,66 @@
+﻿
+.commenctsContainer {
+	background-image: url("../images/Shape 44.png");
+	margin: 0px 20px 20px 20px;
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	padding: 5px;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 40px;
+}
+
+.comments {
+	display:block;
+	padding-left: 0px;
+}
+
+.comments .cmmnt, ul .cmmnt, ul ul .cmmnt { 
+	display: block;
+	position: relative;
+	padding: 0px 65px; 
+}
+
+
+.comments .cmmnt .avatar  { 
+	
+	position: absolute;
+	top: 8px;
+	left: 0px;  
+}
+.comments .cmmnt .avatar img { 
+	max-width: 48px;
+	max-height: 48px;
+	border: 1px;
+	border-color: #b3b3b3;
+	border-style: solid;
+	padding: 5px;
+}
+
+
+
+.comments .cmmnt .cmmnt-content {
+	padding: 14px 3px; 
+	padding-bottom: 12px; 
+	padding-top: 8px; 
+	color: #959595;
+}
+
+.comments .cmmnt .cmmnt-content header { 
+	font-size: 14px;
+	display: block;
+	margin-bottom: 8px;
+}
+.comments .cmmnt .cmmnt-content header .pubdate { 
+	color: black; 
+	font-style: italic;
+}
+.comments .cmmnt .cmmnt-content header .userlink { 
+	font-weight: bold;
+	color: #f26c4f; 
+} 
+.comments .cmmnt .replies { 
+	margin-bottom: 7px; 
+	padding-left:0;
+}

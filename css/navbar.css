@@ -1,0 +1,81 @@
+﻿body {
+	background-image: url("../images/Layer 1.png");
+	font-family: Helvetica;
+}
+
+.container {
+	margin-left:0;
+	margin-right:0;
+	width: 100%;
+}
+
+
+
+.navbar {
+	margin-bottom:0;
+	background-image: url("../images/Shape 1 copy 2.png");
+	border: 0;
+}
+
+.navbar div {
+	padding: 0;
+	margin:0;
+}
+
+.navbar ul {
+	height:100%;
+	list-style-type: none;
+	left: 0;
+}
+
+.navbar li {
+	float: left;
+	margin:0;
+	height:100%;
+	font-size: 12px;
+}
+
+.navbar li .userNameText {
+	color: #f26c4f;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    padding: 17px 20px;
+    text-decoration: none;
+}
+
+.navbar li a.active {
+    background-color: #f26c4f;
+    color: white;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.navbar-image {
+	position:relative;
+	padding:0;
+	margin:0;
+	width: 100%;
+	background-image: url("../images/Layer 9.png");
+	height: 50px;
+	border-bottom: 5px solid #b3b3b3;
+}
+
+
+div.logo a {
+	height:100%;
+	position: relative;
+	text-decoration: none;
+	display: block;
+    margin: 0;
+    padding: 8.5px 16px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #f26c4f;
+	color: white;
+}
