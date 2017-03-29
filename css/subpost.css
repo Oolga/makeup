@@ -91,4 +91,8 @@
 	box-sizing: border-box; 
 }
 
+.subpost .button-margin {
+	margin: 2px;
+}
+
 
