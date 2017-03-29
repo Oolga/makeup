@@ -1,0 +1,110 @@
+﻿.container-page {
+    max-width: 980px;
+}
+
+
+.input-over-pole .button-container {
+	position: absolute; 
+	top: 2px;
+    right: 5px;
+}
+
+.input-over-pole {
+	position:relative;
+    width: 100%;
+}
+
+
+.input-over-pole input {
+
+	width: 100%;
+
+	display: inline-block;
+	position: relative;
+	padding: 12px 50px;
+}
+
+
+.input-over-pole button {
+
+	width: 58px;
+	padding: 8px 15px;
+
+}
+
+.input-over-pole .icon-on-input {
+	top: 10px;
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+}
+
+
+.triangle {
+}
+.triangle:after,
+.triangle:before {
+    content: '';
+    display: block;
+    position: absolute;
+	left: 45px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.triangle:after {
+    top: -40px;
+    border-color: transparent transparent  #fff;
+    border-width: 20px;
+}
+
+.triangle:before {
+    top: -41px;
+    border-color: transparent transparent  #d7d7d7;
+    border-width: 20px;
+}
+
+.rectangle {
+
+}
+
+.rectangle:after,
+.rectangle:before {
+    z-index: -2;
+    content: '';
+    display: block;
+	border: 1px solid  #d7d7d7;
+    position: absolute;
+	left: 20px;
+    right: 20px;
+    height: 20px;
+    border-style: solid;
+}
+
+.rectangle:after {
+    bottom: -4px;
+    border-color:  #fff;
+    border-width: 20px;
+}
+
+.rectangle:before {
+    bottom: -5px;
+    border-color:  #d7d7d7;
+    border-width: 20px;
+}
+
+	.rectangle .rectangle:after,
+	.rectangle .rectangle:before {
+	z-index: -3;
+	left: 30px;
+    right: 30px;
+	} 
+
+.rectangle .rectangle:after {
+	bottom: -8px;
+	}
+
+.rectangle .rectangle:before {
+	bottom: -9px;
+	}

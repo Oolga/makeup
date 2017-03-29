@@ -1,0 +1,94 @@
+﻿.subpost {
+    width:100%;
+	position:relative;
+    margin-top: 23px;
+     background-image: url("../images/Shape 44.png");
+    padding-left: 30px;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 0px;
+	border: 1px solid #ddd;
+	position: relative; 
+}
+
+.subpost .header {
+    color: #3a3e3f;
+    font-size: 15px;
+	word-wrap: break-word;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0px;
+    margin-top: 10px; 
+}
+
+.subpost .text {
+    font-style: italic;
+    color: #959595;
+    word-wrap: break-word;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom:0;
+	line-height: 22px;
+}
+
+.subpost .dark-text {
+	font-style: italic;
+    color:  #3a3e3f;
+    word-wrap: break-word;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom:0;
+	line-height: 22px;
+}
+
+.subpost ul.list {
+        list-style: url("../images/Shape 32.png");
+        padding-left: 20px;
+}
+
+.subpost .list .text {
+    font-style: italic;
+    color: #3a3e3f;
+    word-wrap: break-word;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom:0;
+	line-height: 22px;
+}
+
+.subpost .info {
+    color: #bebebe;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.subpost .tag {
+    border-top: 2px solid #c7c7c7;
+
+	border-right: 1px solid #c7c7c7;
+	border-bottom: 1px solid #c7c7c7;
+	border-left: 1px solid #c7c7c7;
+    background: linear-gradient(to top, #dedede, #f9f9fa);
+	box-shadow: 0px 3px 3px #b1b1b1;
+	background: #e9e9e9;
+	color: #555555;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.subpost .tag-padding {
+    padding: 8px 15px;
+}
+
+.subpost input {
+   	font-size: 12px;
+	box-shadow: inset 0 0 2px #959595;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box; 
+}
+
+

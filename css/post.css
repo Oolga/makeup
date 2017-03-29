@@ -1,50 +1,141 @@
 ﻿.post {
-	padding-top: 0;
-	padding-right: 10px;
-	margin-top: 23px;
+    margin-top: 23px;
 }
 
-.container-page {
-    max-width: 980px;
-}
+
 
 .post-container {
-	max-width: 660px;
-	position:relative;
-	padding: 0;
-	margin-bottom: 10px;
-	margin-right: 0;
 }
 
-.bottom-container{
-	padding-left:10px;
-	padding-right:10px;
+
+.post .post-header {
+    
 }
 
-.bottom-post-container {
-    padding-top: 0;
-	padding-right: 0;
-	margin-top: 23px;
-	margin-right: 0;
-}
-
-.post-image-container {
+.post-header .post-image-container {
 	width: 100%;
 	position:relative;
 	margin-bottom: 10px;
 
 }
 
- img.post-image {
+.post-header  img.post-image {
 	position: relative; 
 	background-color: #ffffff;
     border: 1px solid #ddd;
-	margin: 0px 20px;
     padding: 5px;
 	display: block;
 	height: auto;
 	width: 100%; 
 }
+
+
+.post-image-container .on-image {
+	z-index:12;
+	position: absolute; 
+	bottom: 20px; 
+	left: 45px;
+	color: #f26c4f;
+}
+
+.post-image-container .title {
+	text-align: center;
+	color: white; 
+	background: rgba(0, 0, 0, 0.7);
+	position: relative; 
+	padding: 5px 60px 5px 60px;
+	height: auto;
+	width: 100%; 
+	z-index:12;
+	font-size: 40px; 
+}
+
+.post-image-container .title-container {
+    position: absolute; 
+	bottom: 55%;
+	max-height: 60px;
+	width: 100%; 
+}
+
+
+.post-image-container .on-image-right {
+	z-index:12;
+	position: absolute; 
+	top: 15px; 
+	right: 15px;
+	color: #f26c4f;
+}
+
+.post .post-body {
+	padding-left: 38px;
+	padding-top: 20px;
+	padding-right: 38px;
+	padding-bottom: 20px;
+	border: 0px;
+	border: 1px solid #ddd;
+	width: 100%;
+	position: relative; 
+    margin-bottom: 20px;
+    background-image: url("../images/Shape 44.png");
+}
+
+
+
+.post-body .big-header {
+    color: #3a3e3f;
+    font-size: 30px;
+	word-wrap: break-word;
+	font-weight: bold;
+	text-align: left;
+}
+
+.post-body .info {
+    color: #bebebe;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.post-body .midle-orange-header {
+    font-size: 15px;
+	word-wrap: break-word;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0px;
+    margin-top: 10px;
+    color: #f26c4f;
+}
+
+.post-body .midle-black-header {
+    font-size: 15px;
+	word-wrap: break-word;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0px;
+    margin-top: 10px;
+    color: #3a3e3f;
+}
+
+.post-body .text {
+    color: #959595;
+    word-wrap: break-word;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom:0;
+	line-height: 22px;
+}
+
+
+
+
+.bottom-container{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+
+
+
 
 
 .info-box {
@@ -79,9 +170,9 @@
     left: 68%;
 }
 
-.body-image-background {
+/*.body-image-background {
     background-image: url("../images/Shape 44.png");
-}
+}*/
 
 .body-ligth-background {
     background-color: #fff;
@@ -104,7 +195,7 @@
 }
 
 .info-body {
-    margin: 0px 0px 38px 20px;
+    /*margin: 0px 0px 38px 20px;*/
 	padding-left: 30px;
 	padding-top: 0px;
 	padding-right: 20px;
@@ -115,45 +206,7 @@
 	position: relative; 
 }
 
- .body {
-	
-	margin: 0px 0px 38px 20px;
-	padding-left: 38px;
-	padding-top: 20px;
-	padding-right: 38px;
-	padding-bottom: 20px;
-	border: 0px;
-	border: 1px solid #ddd;
-	width: 100%;
-	position: relative; 
-}
 
-
-
-.triangle {
-}
-.triangle:after,
-.triangle:before {
-    content: '';
-    display: block;
-    position: absolute;
-	left: 45px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-
-.triangle:after {
-    top: -40px;
-    border-color: transparent transparent  #fff;
-    border-width: 20px;
-}
-
-.triangle:before {
-    top: -41px;
-    border-color: transparent transparent  #d7d7d7;
-    border-width: 20px;
-}
 
 .under-body {
 	position: relative;
@@ -177,27 +230,16 @@
 }
 
 
-.title-on-image {
+/*.title-on-image {
 	position: absolute; 
 	bottom: 55%;
-	left: 20px;
 	max-height: 60px;
 	width: 100%; 
-}
+}*/
 
-.title {
-	text-align: center;
-	color: white; 
-	background: rgba(0, 0, 0, 0.7);
-	position: relative; 
-	padding: 5px 60px 5px 60px;
-	height: auto;
-	width: 100%; 
-	z-index:12;
-	font-size: 40px; 
-}
 
-.single-post {
+
+/*.single-post {
 }
 
 .single-post .on-image {
@@ -206,22 +248,5 @@
 	bottom: 5%; 
 	left: 5%;
 	color: #f26c4f;
-}
-
-.on-image {
-	z-index:12;
-	position: absolute; 
-	bottom: 8%; 
-	left: 11.5%;
-	color: #f26c4f;
-}
-
-
-.on-image-right {
-	z-index:12;
-	position: absolute; 
-	top: 15px; 
-	right: -8px;
-	color: #f26c4f;
-}
+}*/
 
